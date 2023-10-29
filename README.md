@@ -45,7 +45,7 @@ Passo 4: Executar o Projeto
 
     Inicie seu servidor de aplicação (por exemplo, Apache Tomcat).
     Implante o seu projeto no servidor de aplicação.
-    Acesse o aplicativo em um navegador da web, normalmente através de um URL http://localhost:8080/jornada/
+    Acesse o aplicativo em um navegador da web, através da URL http://localhost:8080/jornada/
     Acesse o menu de cadastros de novos destinos na URL http://localhost:8080/jornada/home
 
 

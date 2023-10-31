@@ -31,6 +31,20 @@ Passo 2: Configurar o Banco de Dados MySQL
     Configure as informações de conexão com o banco de dados no arquivo de configuração do seu projeto (dentro da pasta "model", no arquivo Conexão.java), 
     especificando o URL, nome de usuário e senha do banco de dados.
 
+
+Script do BD
+
+CREATE DATABASE jornada_java;
+
+USE jornada_java;
+
+CREATE TABLE destinos ( <br>
+id INTEGER PRIMARY KEY auto_increment,<br>
+cidade VARCHAR(50),<br>
+pais VARCHAR(50),<br>
+valor DOUBLE<br>
+);
+
 Passo 3: Compilar o Projeto
 
     Navegue até o diretório do projeto baixado.
@@ -47,6 +61,10 @@ Passo 4: Executar o Projeto
     Implante o seu projeto no servidor de aplicação.
     Acesse o aplicativo em um navegador da web, através da URL http://localhost:8080/jornada/
     Acesse o menu de cadastros de novos destinos na URL http://localhost:8080/jornada/home
+
+
+
+
 
 
 # Obrigado!

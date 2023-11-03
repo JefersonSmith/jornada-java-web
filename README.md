@@ -45,17 +45,8 @@ pais VARCHAR(50),<br>
 valor DOUBLE<br>
 );
 
-Passo 3: Compilar o Projeto
 
-    Navegue até o diretório do projeto baixado.
-    Compile o projeto, normalmente usando o comando Maven ou Gradle 
-    (dependendo do sistema de build que você estiver usando). Por exemplo:
-
-
-mvn clean install
-
-
-Passo 4: Executar o Projeto
+Passo 3: Executar o Projeto
 
     Inicie seu servidor de aplicação (por exemplo, Apache Tomcat).
     Implante o seu projeto no servidor de aplicação.
